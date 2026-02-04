@@ -42,11 +42,6 @@ All API requests must contain a special header for access rights verification.
 - **URL:** `/tasks/{id}`
 - **Method:** `PATCH`
 - **Headers:** `X-API-Key: <key>`
-- **Body (JSON):**
-  ```json
-  {
-    "title": "Buy milk"
-  }
 
 ---
 
